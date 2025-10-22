@@ -1,0 +1,17 @@
+{
+  "name": "safe-userop-signature-collection-via-safe-tx-service",
+  "version": "1.0.0",
+  "description": "Demonstrates how to use SafeApiKit to manage multi-signature Safe accounts with distributed userop signature collection",
+  "license": "MIT",
+  "dependencies": {
+    "@safe-global/api-kit": "^4.0.0",
+    "@safe-global/protocol-kit": "^6.1.1",
+    "@safe-global/types-kit": "^3.0.0",
+    "abstractionkit": "^0.2.30",
+    "dotenv": "^16.5.0",
+    "viem": "^2.37.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
