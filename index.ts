@@ -96,10 +96,6 @@ async function main(): Promise<void> {
     const userOpHash = SafeAccount.getUserOperationEip712Hash(
         userOperation,
         chainId,
-        {
-            entrypointAddress: SafeAccount.DEFAULT_ENTRYPOINT_ADDRESS,
-            safe4337ModuleAddress: SafeAccount.DEFAULT_SAFE_4337_MODULE_ADDRESS,
-        }
     );
 
     // Owner 1: Sign and propose to Safe Transaction Service
